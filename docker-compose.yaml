@@ -1,13 +1,13 @@
 services:
 
-    homepage:
-        image: ghcr.io/benphelps/homepage:latest
-        container_name: homepage
-        ports:
-            - "8200:3000"
-        volumes:
-            - ./app/config:/app/config
-            - /var/run/docker.sock:/var/run/docker.sock 
-        restart: unless-stopped    
-
-        
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: homepage
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock  # Permite la detección automática
+      - ./config:/app/config  # Configuración de Homepage
+    ports:
+      - "8200:3000"
+    restart: unless-stopped
+    environment:
+      - DOCKER_SOCKET=/var/run/docker.sock  # Permite la monitorización de contenedores        
