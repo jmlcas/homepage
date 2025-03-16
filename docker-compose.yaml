@@ -6,6 +6,8 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock  # Permite la detección automática
       - ./config:/app/config  # Configuración de Homepage
+      - ./images:/app/public/images
+      - ./icons:/app/public/icons      
     ports:
       - "8200:3000"
     restart: unless-stopped
