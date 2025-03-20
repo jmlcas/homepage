@@ -1,5 +1,4 @@
-# homepage
-Homepage - Dashboard - Docker compose
+# Homepage
 
 Ver en "localhost:8200"
 
