@@ -8,4 +8,4 @@ Consultar: https://gethomepage.dev/installation/
 <br>
 Ver vídeo:
 
-[![Alt text](https://img.youtube.com/vi/nSrESHq-ODc/0.jpg)](https://www.youtube.com/watch?v=nSrESHq-ODc)
+[![Alt text](https://img.youtube.com/vi/3DdElTwE10o/0.jpg)](https://www.youtube.com/watch?v=3DdElTwE10o)
