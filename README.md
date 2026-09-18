@@ -1,6 +1,6 @@
 # Homepage
 
-Ver en "localhost:8200"
+Ver en "http://localhost:8200"
 
 Consultar: https://gethomepage.dev/installation/
 
